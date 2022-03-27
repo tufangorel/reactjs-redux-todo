@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --progress",
+    "start": "webpack-dev-server --mode production --progress",
     "build": "webpack --mode production --progress",
     "dev": "opener http://localhost:8080 & webpack-dev-server"
   },
-  "_comment": "move dependencies listed below babel-core into the devDependencies section after npm install.",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
