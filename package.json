@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode production --progress",
     "build": "webpack --mode production --progress",
-    "dev": "opener http://localhost:8080 & webpack-dev-server"
+    "dev": "opener http://localhost:8080 & webpack-dev-server",
+    "test": "mocha"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -20,6 +21,7 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.0.7",
     "mini-css-extract-plugin": "^0.2.0",
+    "mocha": "^9.2.2",
     "opener": "1.4.3",
     "prop-types": "^15.8.1",
     "react": "^16.4.0",
