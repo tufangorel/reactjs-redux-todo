@@ -9,12 +9,12 @@
     "test": "mocha"
   },
   "dependencies": {
-    "@babel/core": "7.17.9",
-    "babel-loader": "^8.2.4",
-    "@babel/plugin-proposal-object-rest-spread": "7.17.3",
-    "@babel/plugin-transform-runtime": "7.17.0",
-    "@babel/preset-env": "7.16.11",
-    "@babel/preset-react": "7.16.7",
+    "@babel/core": "7.29.0",
+    "babel-loader": "^10.1.1",
+    "@babel/plugin-proposal-object-rest-spread": "7.29.0",
+    "@babel/plugin-transform-runtime": "7.29.0",
+    "@babel/preset-env": "7.29.0",
+    "@babel/preset-react": "7.28.5",
     "css-loader": "^6.7.1",
     "html-loader": "3.1.0",
     "html-webpack-plugin": "^5.5.0",
